@@ -1,3 +1,5 @@
+//URL that you set in RingCentral softphone looks like https://system.na1.netsuite.com/app/site/hosting/scriptlet.nl?script=547&deploy=1&custpage_phone=%P
+
 function RingCentral_customerEntry(request, response){
 	var context = nlapiGetContext();
 	nlapiLogExecution('DEBUG','RingCentral customer Entry', 'start ' + context.getRemainingUsage());
